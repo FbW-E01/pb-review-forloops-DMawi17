@@ -78,8 +78,8 @@ const sevenObjArray = [
     { counter: "count 7" },
 ];
 
-for (let key = 0; key < sevenObjArray.length; key++) {
-    const counterValue = sevenObjArray[key].counter;
+for (let i = 0; i < sevenObjArray.length; key++) {
+    const counterValue = sevenObjArray[i].counter;
     console.log(counterValue);
 }
 
