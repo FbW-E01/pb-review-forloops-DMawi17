@@ -44,6 +44,8 @@ for (let i = 0; i < toolBox.length; i++) {
 
 // 7. Make an array with 6 items. Then, make a loop that prints every second item of that array.
 
+const toolBoxPlus = ["HTML", "CSS", "SASS", "Bootstrap", "JS", 'REACT'];
+
 for (let i = 0; i < toolBoxPlus.length; i++) {
     if (!(i % 2 === 0)) {
         console.log(toolBoxPlus[i]);
@@ -54,7 +56,7 @@ for (let i = 0; i < toolBoxPlus.length; i++) {
 
 // 8. Make an array with 6 items. Then, make a loop that prints every third item of that array.
 
-for (let i = 0; i < toolBoxPlus.length; i += 3) {
+for (let i = 2; i < toolBoxPlus.length; i += 3) {
     console.log(toolBoxPlus[i]);
 }
 
@@ -62,7 +64,7 @@ for (let i = 0; i < toolBoxPlus.length; i += 3) {
 
 const arrayOfTen = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
-for (let i = 2; i < arrayOfTen.length; i += 3) {
+for (let i = 1; i < arrayOfTen.length; i += 3) {
     console.log(arrayOfTen[i]);
 }
 
